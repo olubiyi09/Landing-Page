@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header{
+    background-color: #1f2937;
+    padding: 20px 115px 120px 205px;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 115px;
+}
+
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav{
+    font-size: 18px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.signup{
+    margin-right: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+nav ul li a:hover{
+    color:#fff;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.abt-title{
+    width: 500px;
+    margin-right: 70px;
+}
+
+.abt-title h1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.abt-title p{
+    color: #e5e5e5;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.abt-title button{
+    background-color: #3882f6;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 4px;margin-top: 15px;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+button:hover{
+    background-color: #165cce;
+}
+
+
+.image img{
+    width: 525px;
+    height: 250px;
+    border-radius: 7px;
+}
